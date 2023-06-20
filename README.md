@@ -25,8 +25,9 @@
 3. Run `yarn dev` to start the project in development mode 
     - ensure that you have docker running
     - check the package.json file for more scripts
-4. Run `yarn migrate` to run the migrations 
-5. You can access the hasura console at `http://localhost:2000/console`
-6. In the hasura query explorer, choose the `say_hi` type and check both the `name` and `message` fields.
-7. In the name field enter your name and click on the play button to execute the query
-8. You should see the response in the response pane
+4. Run `yarn install` to install the dependencies
+5. Run `yarn migrate` to run the migrations 
+6. You can access the hasura console at `http://localhost:2000/console`
+7. In the hasura query explorer, choose the `say_hi` type and check both the `name` and `message` fields.
+8. In the name field enter your name and click on the play button to execute the query
+9. You should see the response in the response pane
